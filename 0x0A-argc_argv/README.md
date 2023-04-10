@@ -1,0 +1,1 @@
+The ALX C argc, argv Project. This directory contains solutions to each task given in the ALX project.Amongst other things, the solutions illustrate the meaning of argc and argv,, the two prototypes of main and how they are used and also how to compile with unused variables
