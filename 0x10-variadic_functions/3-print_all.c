@@ -27,8 +27,10 @@ void print_all(const char * const format, ...)
 				break;
 			case 's':
 				m = va_arg(lis, char *);
-				if (!m)
-					m = "(nil)";
+				if (m == NULL)
+				{
+					printf("%s(nil)", mddl);
+				}
 				printf("%s%s", mddl, m);
 				break;
 			case 'c':
