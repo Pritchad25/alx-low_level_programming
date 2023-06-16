@@ -11,18 +11,15 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	size_t nodes = 0;
+	size_t counter = 0; /* the count variable */
+	const dlistint_t *curr = h; /*the current node */
 
-	if (!h)
+	while (curr != NULL)/* iterate through the list to print the elements.*/
 	{
-		return (0);
-	}
-	while (h)
-	{
-		printf("%d\n", h->n);
-		h = h->next;
-		nodes++;
+		printf("%d\n", curr->n);
+		counter++;
+		curr = curr->next;
 	}
 
-	return (nodes);
+	return (counter);
 }
