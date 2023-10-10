@@ -35,41 +35,35 @@ void printArray(int *array, size_t size)
  */
 int binary_search(int *array, size_t size, int value)
 {
-	size_t left = 0;
-	size_t right = size - 1;
-	size_t mid;
+	size_t i, left, right;
 
-	printArray(array, size);
-	if (!array || size == 0)
+	if (!array)
 	{
 		return (-1);
 	}
-
-	while (left <= right)
+	/* The Binary search */
+	for (left = 0, right = size - 1; right >= left;)
 	{
-		mid = left + (right - left) / 2;
+		printf("Searching in array: ");
+		for (i = left; i < right; i++)
+		{
+			printf("%d, ", array[i]);
+		}
+		printf("%d\n", array[i]);
+		/* The calculation of the middle index */
+		i = left + (right - left) / 2;
+		/* If the middle element is the value */
+		if (array[i] == value)
+			/* return that particular index */
+			return (i);
 
-		if (array[mid] == value)
-		{
-			return (mid);
-		}
-		else if (array[mid] < value)
-		{
-			left = mid + 1;
-		}
-		else if (array[mid] > value)
-		{
-			right = mid - 1;
-		}
+		/* If the element in the middle is greater than the value */
+		if (array[i] > value)
+			/* Update the boundary on the right */
+			right = i - 1;
 		else
-		{
-			return (-1);
-		}
-		if (left <= right)
-		{
-			printArray(&array[left], right - left + 1);
-		}
+			/* Otherwise update the boundary on the left */
+			left = i + 1;
 	}
-
 	return (-1);
 }
