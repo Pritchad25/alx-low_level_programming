@@ -58,7 +58,7 @@ The following are the projects that are within this repository.
 | [0x06-pointers_arrays_strings](0x06-pointers_arrays_strings/) | Further Implementation of Pointers |
 | [0x07-pointers_arrays_strings](0x07-pointers_arrays_strings/) | Further Implementation of Pointers |
 | [0x08-recursion](0x08-recursion/) | Introduction to Recursion |
-| [0x09-static_libraries] (0x09-static_libraries/) | Deep Dive Into C Static Libraries |
+| [0x09-static_libraries](0x09-static_libraries/) | Deep Dive Into C Static Libraries |
 | [0x0A-argc_argv](0x0A-argc_argv/) | Passing Argumenst to the C Main Function |
 | [0x0B-malloc_free](0x0B-malloc_free/) | C Memory Allocation and Freeing or Releasing |
 | [0x0C-more_malloc_free](0x0C-more_malloc_free/) | More Implementation of C Memory Allocation |
