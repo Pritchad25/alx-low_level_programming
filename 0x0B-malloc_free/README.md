@@ -41,5 +41,5 @@ At the end of this project, I am expected to be able to explain to anyone, witho
 ## Contributing <a name="contributing"></a>
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License <a name"license"></a>
+## License <a name="license"></a>
 ALX 2024
