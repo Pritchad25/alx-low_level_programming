@@ -1,53 +1,44 @@
-This directory is for the ALX C Singly Linked Lists Project. It contains code solutions to the tasks given by ALX coding school.
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-You are not allowed to use global variables
-No more than 5 functions per file
-The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts, calloc, realloc etc… is forbidden
-You are allowed to use _putchar
-You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
-In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called lists.h
-Don’t forget to push your header file
-All your header files should be include guarded
+# Project Title: C - Singly linked lists
 
-Task 0 - Print List
-Write a function that prints all the elements of a list_t list.
+## Table of Contents
+1. About
+2. Learning Objectives
+3. Requirements
+4. Getting Started
+5. Contributing
+6. License
 
-Prototype: size_t print_list(const list_t *h);
-Return: the number of nodes
-Format: see example
-If str is NULL, print [0] (nil)
-You are allowed to use printf
+## About <a name="about"></a>
+This project is part of the curriculum of the ALX Software Engineering program. The main objective of this project is to understand and implement the Singly Linked List Data Structure in the C programming Language.
 
-Task 1 - List length
-Write a function that returns the number of elements in a linked list_t list.
+## Learning Objectives <a name="learning-objectives"></a>
+At the end of this project, I am expected to be able to explain to anyone, without the help of Google:
+- When and why using linked lists vs arrays
+- How to build and use linked lists
 
-Prototype: size_t list_len(const list_t *h);
+## Requirements <a name="requirements"></a>
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
+- All your files should end with a new line
+- A `README.md` file, at the root of the folder of the project is mandatory
+- Your code should use the `Betty` style linter.
+- You are not allowed to use global variables
+- No more than 5 functions per file
+- The only C standard library functions allowed are `malloc`, `free` and `exit`. Any use of functions like `printf`, `puts`, `calloc`, `realloc` etc... is forbidden
+- - You are allowed to use `_putchar`
+- You don’t have to push `_putchar.c`, we will use our file. If you do it won’t be taken into account
+- In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples
+- The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `main.h`
+- Don’t forget to push your header file
+- All your header files should be include guarded
 
-Task 2 - Add Node
-Write a function that adds a new node at the beginning of a list_t list.
+## Getting Started <a name="getting-started"></a>
+1. Clone this repository: `git clone https://github.com/Pritchad25/alx-low_level_programming.git`
+2. Access the project directory: `cd 0x12-singly_linked_lists`
+3. Run any executable file within the directory.
 
-Prototype: list_t *add_node(list_t **head, const char *str);
-Return: the address of the new element, or NULL if it failed
-str needs to be duplicated
-You are allowed to use strdup
+## Contributing <a name="contributing"></a>
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Task 3 - Add node at the end
-Write a function that adds a new node at the end of a list_t list.
-
-Prototype: list_t *add_node_end(list_t **head, const char *str);
-Return: the address of the new element, or NULL if it failed
-str needs to be duplicated
-You are allowed to use strdup
-
-Task 4 - Free list
-Write a function that frees a list_t list.
-
-Prototype: void free_list(list_t *head);
-
+## License <a name="license"></a>
+ALX 2024 - [alxafrica](https://www.alxafrica.com)
