@@ -1,34 +1,45 @@
-ALX 0x13. C - More singly linked lists Project
+# Project Title C - More singly linked lists
 
-The requirements for the tasks for this project are the following:
+## Table of Contents
+1. About
+2. Learning Objectives
+3. Requirements
+4. Getting Started
+5. Contributing
+6. License
 
-General
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-You are not allowed to use global variables
-No more than 5 functions per file
-The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts, calloc, realloc etc… is forbidden
-You are allowed to use _putchar
-You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
-In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-The prototypes of all your functions and the prototype of the function putchar should be included in your header file called lists.h
-Don’t forget to push your header file
-All your header files should be include guarded
+## About <a name="about"></a>
+This project is part of the curriculum of the ALX Software Engineering program. The main objective of this project is to understand and implement the Singly Linked List Data Structure in C programming Language.
 
-The following data structure is used in this project:
-/**
- * struct listint_s - singly linked list
- * @n: integer
- * @next: points to the next node
- *
- * Description: singly linked list node structure
- * 
- */
-typedef struct listint_s
-{
-    int n;
-    struct listint_s *next;
-} listint_t
+## Learning Objectives <a name="learning-objectives"></a>
+At the end of this project, I am expected to be able to explain to anyone, without the help of Google:
+- How to use linked lists
+- Start to look for the right source of information without too much help
+
+## Requirements <a name="requirements"></a>
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
+- All your files should end with a new line
+- A `README.md` file, at the root of the folder of the project is mandatory
+- Your code should use the `Betty` style linter.
+- You are not allowed to use global variables
+- No more than 5 functions per file
+- The only C standard library functions allowed are `malloc`, `free` and `exit`. Any use of functions like `printf`, `puts`, `calloc` and `realloc`, etc.. is forbidden
+- You are not allowed to use the standard library. Any use of functions like `printf`, `puts`, etc… is forbidden
+- You are allowed to use `_putchar`
+- You don’t have to push `_putchar.c`, we will use our file. If you do it won’t be taken into account
+- In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples
+- The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `main.h`
+- Don’t forget to push your header file
+- All your header files should be include guarded
+
+## Getting Started <a name="getting-started"></a>
+1. Clone this repository: `git clone https://github.com/Pritchad25/alx-low_level_programming.git`
+2. Access the project directory: `cd 0x13-more_singly_linked_lists`
+3. Run any executable file within the directory.
+
+## Contributing <a name="contributing"></a>
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License <a name="license"></a>
+ALX 2024 - [alxafrica](https://www.alxafrica.com)
