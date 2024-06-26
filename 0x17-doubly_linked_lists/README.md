@@ -11,7 +11,7 @@
 ## About <a name="about"></a>
 This project is part of the curriculum of the ALX Software Engineering program. The main objective of this project is to understand and implement the Doubly Linked List Data Structure.
 
-## Learning Objectives <a name"learning-objectives"></a>
+## Learning Objectives <a name="learning-objectives"></a>
 - What is a doubly linked list
 - How to use doubly linked lists
 - Understand and know how to implement the various operations (deletion, insertion, etc) with doubly linked lists
